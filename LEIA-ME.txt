@@ -1,0 +1,28 @@
+PCP Elevolt - Controle de Produção v3
+
+Arquivos para publicar no GitHub Pages:
+- index.html
+- styles.css
+- script.js
+- dados.csv
+- imagens/logo.png
+
+Melhorias desta versão:
+- Nova coluna QTDE na tabela e no modal da OS.
+- Nova coluna Observação da última reunião semanal.
+- Campo de busca agora pesquisa também nas observações.
+- Exportação CSV inclui QTDE e Observação.
+- Status LIBERADO EXPEDIÇÃO foi normalizado para LIBERADO FATURAMENTO.
+- Card de indicador ajustado para Liberado faturamento.
+
+Como atualizar as OSs:
+1. Exporte ou edite o arquivo dados.csv.
+2. Mantenha o separador ponto e vírgula (;).
+3. Substitua o dados.csv no GitHub.
+4. Aguarde alguns instantes e atualize o site com Ctrl + F5.
+
+Colunas recomendadas no CSV:
+OS;CLIENTE;PRODUTO;QTDE;LANÇAMENTO;ENTREGA;STATUS;OBSERVAÇÃO DA ÚLTIMA REUNIÃO SEMANAL
+
+Observação:
+O sistema também aceita status antigo LIBERADO EXPEDIÇÃO, mas exibe automaticamente como LIBERADO FATURAMENTO.
